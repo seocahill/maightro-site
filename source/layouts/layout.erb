@@ -1,16 +1,76 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maytró</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
   </head>
   <body>
-    <%= yield %>
+    <header class="bg-blue-500 py-4">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <a href="#" class="text-white font-bold text-xl">Maytró</a>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="text-white hover:text-gray-300">About</a></li>
+            <li><a href="#" class="text-white hover:text-gray-300">History</a></li>
+            <li><a href="#" class="text-white hover:text-gray-300">Analysis</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="bg-white py-20">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold mb-8">Search local rail services in Mayo</h1>
+        <!-- Update the form to include inputs for "from", "to", and "date" -->
+        <form action="#" class="max-w-lg mx-auto lg:flex lg:items-center lg:justify-center lg:space-x-4" method="GET" hx-post="//maightro.onrender.com/timetable" hx-target="#results-table"
+>
+          <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
+            <label for="from" class="hidden lg:block text-gray-600 mr-4">From:</label>
+            <select id="from" name="from" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200 bg-white ml-0 lg:ml-2">
+              <option value="ballina">Ballina</option>
+              <option value="foxford">Foxford</option>
+              <option value="castlebar">Castlebar</option>
+              <option value="westport">Westport</option>
+              <option value="claremorris">Claremorris</option>
+              <option value="ballyhaunis">Ballyhaunis</option>
+            </select>
+          </div>
+          <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
+            <label for="to" class="hidden lg:block text-gray-600 mr-4">To:</label>
+            <select id="to" name="to" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200 bg-white ml-0 lg:ml-2">
+              <option value="ballina">Ballina</option>
+              <option value="foxford">Foxford</option>
+              <option value="castlebar">Castlebar</option>
+              <option value="westport">Westport</option>
+              <option value="claremorris">Claremorris</option>
+              <option value="ballyhaunis">Ballyhaunis</option>
+            </select>
+          </div>
+          <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
+            <label for="date" class="hidden lg:block text-gray-600 mr-4">Date:</label>
+            <input type="date" id="date" name="date" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200 bg-white ml-0 lg:ml-2">
+          </div>
+          <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
+            <label for="timetable" class="hidden lg:block text-gray-600 mr-4">Timetable:
+            </label>
+            <select id="timetable" name="timetable" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200 bg-white ml-0 lg:ml-2">
+              <option value="Current">Current</option>
+              <option value="Improved">Improved</option>
+              <option value="Direct">Direct</option>
+              <option value="Claremorris">Claremorris</option>
+              <option value="Ballyhaunis">Ballyhaunis</option>
+            </select>
+          </div>
+          <button class="py-3 px-6 bg-blue-500 text-white font-semibold rounded-lg border border-blue-500 hover:bg-blue-600 transition-all duration-300 mt-4 lg:mt-0">Search</button>
+          <!-- Add a button to reverse the direction of travel -->
+          <button class="py-3 px-6 bg-gray-200 text-gray-800 font-semibold rounded-lg border border-gray-200 hover:bg-gray-300 transition-all duration-300 ml-4 hidden lg:block" id="reverseDirection">Reverse</button>
+        </form>
+      </div>
+    </section>
+    <section class="bg-white py-20">
+      <div class="container mx-auto px-4" id="results-table">
+        <%= yield %>
+      </div>
+    </section>
   </body>
-</html>
