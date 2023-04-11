@@ -55,11 +55,13 @@ activate :external_pipeline,
   latency: 2,
   source: "./dist/"
 
-# activate :blog do |blog|
-#   blog.name = "news"
-#   blog.prefix = "news"
-#   blog.layout = "article_layout"
-# end
+activate :blog do |blog|
+  blog.name = "articles"
+  blog.prefix = "articles"
+  blog.layout = "article_layout"
+  blog.sources = "{title}.html"
+  blog.permalink = "{title}.html"
+end
 
 # activate :blog do |blog|
 #   blog.name = "projects"
