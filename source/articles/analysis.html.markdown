@@ -69,9 +69,7 @@ The former example is superficially similar to the algorithmic approach I take b
 > [A greedy algorithm is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.](https://en.wikipedia.org/wiki/Greedy_algorithm)
 > -- <cite>[Wikipedia]</cite>
 
-My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that.
-
-This approach also makes sense as I (generally, the exception being scenario 2) have give myself the constraint that I can’t reschedule already scheduled trains in order to make realising some version of Maytró as feasible as possible.
+My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that. I have accepted the general constraint that I can’t reschedule existing trains (excepting option 2) in order to make realising some version of Maytro as feasible as possible which again mitigates against an optimal solution.
 
 ### Scenarios
 
