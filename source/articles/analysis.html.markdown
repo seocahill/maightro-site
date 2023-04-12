@@ -70,7 +70,7 @@ The baseline is just the current service and I look that up directly from Iarnr�
 ```ascii
    $rescue models/scenarios/option_3.rb 20221222 Claremorris Castlebar
    +-------------------------------------------------------------------+
-   |                            An Maightró                            |
+   |                            An Maytró                            |
    +-------------+-----------+-------+-------+---------------+---------+
    | from        | to        | dep   | arr   | info          | trip_id |
    +-------------+-----------+-------+-------+---------------+---------+
