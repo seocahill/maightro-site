@@ -1,6 +1,6 @@
 ---
 
-title: Histroy
+title: History
 date: 2023-04-12 20:25 UTC
 tags: articles
 
