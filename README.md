@@ -13,6 +13,7 @@
 - maybe price if available?
 - GDPR
 - Swiss option
+- Maigh-Treo / Maytro
 
 
 ### Try

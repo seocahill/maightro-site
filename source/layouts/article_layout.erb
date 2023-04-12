@@ -11,21 +11,21 @@
     <%= javascript_include_tag "site" %>
     <script src="https://unpkg.com/htmx.org@1.8.4"></script>
   </head>
-  <body>
-    <header class="bg-blue-500 py-4">
+  <body class="pt-20">
+    <header class="fixed top-0 left-0 w-full bg-blue-500 py-4 z-10">
       <div class="container mx-auto flex justify-between items-center px-4">
-        <a href="#" class="text-white font-bold text-xl">Maytró</a>
+        <a href="/" class="text-white font-bold text-xl">Maytró</a>
         <nav>
           <ul class="flex space-x-4">
-            <li><a href="#" class="text-white hover:text-gray-300">Aboutit</a></li>
-            <li><a href="#" class="text-white hover:text-gray-300">History</a></li>
-            <li><a href="#" class="text-white hover:text-gray-300">Analysis</a></li>
+            <li><a href="about.html" class="text-white hover:text-gray-300">About</a></li>
+            <li><a href="history.html" class="text-white hover:text-gray-300">History</a></li>
+            <li><a href="analysis.html" class="text-white hover:text-gray-300">Analysis</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
-      <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+    <main class="container mx-auto px-4">
+      <div class="mx-auto max-w-7xl py-8 sm:px-6 lg:flex lg:items-center lg:justify-center lg:py-16 lg:px-8">
         <div class="prose lg:prose-xl">
           <%= yield %>
         </div>
