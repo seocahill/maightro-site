@@ -64,7 +64,7 @@ The most obvious brute force approach is simply to cycle through every schedulin
       return schedule
 ```
 
-The former example is superficially similar to the algorithmic approach I take but instead of trying to schedule all trains per open block I optimize for connections, applying approximate calcuations (heuristics) to avoid unnecessary cycles. This is a pretty typical way to tackle a problem like this and produces what are known as 'greedy' algorithms:
+The former example is superficially similar to the algorithmic approach I take but instead of trying to schedule all trains per open block I optimize for connections, applying approximate calcuations (heuristics) to avoid unnecessary cycles. This is a typical way to tackle a problem like this and produces what are referred to as 'greedy' algorithms:
 
 > [A greedy algorithm is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.](https://en.wikipedia.org/wiki/Greedy_algorithm)
 > -- <cite>[Wikipedia]</cite>
