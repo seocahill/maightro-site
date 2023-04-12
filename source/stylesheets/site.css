@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.submit-button {
+  position: relative;
+}
+
+.loading-text {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.htmx-request .loading-text {
+  display: block;
+}
+
+.default-text {
+  visibility: visible;
+}
+
+.htmx-request .default-text {
+  visibility: hidden;
+}
