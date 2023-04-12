@@ -151,7 +151,7 @@ A proper approach would have been to introduce an extra block (Ballyhaunis - Cla
 
 ### Comparison of Algorithms
 
-You can further analysis the aforementioned algorithms via an interactive interface [here](/results)
+You can further analysis the aforementioned algorithms via an interactive interface [here](/results.html)
 
 * * *
 
