@@ -53,7 +53,7 @@ Having admitted the above, these limitations are trivial, taking into account th
 
 ### Why the Maytró should happen
 
-No public service will happen unless it is Government policy, and there is a lots of relevant policy, past and present, squarely behind Maytró.
+No public service will happen unless it is Government policy, and there is lots of relevant policy, past and present, squarely behind Maytró.
 
 Starting with the recent past, [The National Spatial Strategy (2002 - 2022)](https://npf.ie/nss/) while by no means flawless, was the superior predecessor of the current National Planning Framework which will exacerbate already extreme centralization, to the benefit of no-one except the city rentiers. The NSS focused on redressing the imbalances of Dublin-centric unconstrained growth, fostering regional development by clustering smaller towns together to create something akin to city scale or a counter balance to prevailing centrifugal forces at least. Among the secondary ‘hubs’ identified was Ballina-Castlebar. BellinBar (or is it CashelNah?) never got off the ground. As was the case with most of the putative hubs and gateways in the NSS, Dublin ate their lunch. Needless to say utilizing the idle railway between the two towns a bit better (or at all) might have helped to make a meaningful connection between the two something more than an aspiration. In conventional urban areas, after all, it is almost always the local genus of metro, that embodies both the real and symbolic nervous system connecting the disparate parts of the urban.
 
