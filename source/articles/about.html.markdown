@@ -61,9 +61,11 @@ The [updated climate action plan](https://www.gov.ie/en/publication/7bd8c-climat
 
 Mayo county council is unequivolcally in favour of Mayo commuter rail as outlined in [the Mayo County Development Plan 2022-2028](https://www.mayo.ie/planning/county-development-plans/2022-2028) which proposes, inter alia:
 
-> To support and encourage the provision of a high-quality rail network and service (including commuter services) and ancillary works for passenger and freight carriage to, from and within the county, where it can be demonstrated that the development will not have significant adverse effects on the environment including the integrity of the Natura 2000 network. Policy MTP 19, p121
+> To support and encourage the provision of a high-quality rail network and service (including commuter services) and ancillary works for passenger and freight carriage to, from and within the county, where it can be demonstrated that the development will not have significant adverse effects on the environment including the integrity of the Natura 2000 network.
+> -- <cite>Policy MTP 19, p121</cite>
 
-> To liaise with and encourage Iarnród Éireann to: (a) Continue investment in rail freight facilities at Ballina & Westport (existing) and Claremorris & Castlebar (as potential freight hubs). (b) Increase frequency of commuter services on the mainline rail network between Westport, Castlebar and Ballina. Objective MTO 18 p122
+> To liaise with and encourage Iarnród Éireann to: (a) Continue investment in rail freight facilities at Ballina & Westport (existing) and Claremorris & Castlebar (as potential freight hubs). (b) Increase frequency of commuter services on the mainline rail network between Westport, Castlebar and Ballina.
+> -- <cite>Objective MTO 18 p122</cite>
 
 In this, their flagship policy document, Mayo county council accurately diagnose the problematic nature of the current service and prescribe a sensible and straightforward solution.
 
