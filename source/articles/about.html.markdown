@@ -6,10 +6,12 @@ tags: articles
 
 ---
 
-About Maightró
+About Maytro
 --------------
 
-“Matyró” (this website) is conceived to be both practical and aspirational. At heart it’s simply an online rail journey planner exclusively branded for Mayo people. Its other purpose is to demonstrate concretely, how easy it would be to provide significantly more useful local rail services than those currently offered.
+“Maytró” (this website) is conceived to be both practical and aspirational. At heart it’s simply an online rail journey planner exclusively branded for Mayo people. Its other purpose is to demonstrate concretely, how easy it would be to provide significantly more useful local rail services than those currently offered.
+
+The name (apologies if obvious) is a combination of Mayo and metro, Maigh Eo agus meitreo i nGaeilge. The original project, the inspiration for this proposal, was called "Mayolink".
 
 The actual service itself as mentioned [elsewhere](#history) has been going since 2007. “Phase 1” (let’s hopefully call it!) covers a grand total of 15 miles between Foxford and Ballina. There are eight trains each way, the first one leaving Ballina at 5:05 and the last one arriving back in Ballina 21:32. The interval between each train in either direction is about 2 hours on average. This makes it a more frequent service than any available in Derry, Limerick, Galway or Waterford, numbers four to seven of Ireland’s most populous cities. It’s a glimpse of what the service could really be like, if it was operated in a way that sought to maximize available resources.
 
