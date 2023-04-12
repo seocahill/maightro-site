@@ -8,3 +8,9 @@ function swapValues() {
   from.value = to.value;
   to.value = temp;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const today = new Date().toISOString().split('T')[0];
+  document.getElementById("date").setAttribute('max', today);
+  document.getElementById("date").setAttribute('value', today);
+});
