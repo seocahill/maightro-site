@@ -39,8 +39,8 @@ The most obvious brute force approach is simply to cycle through every schedulin
 
 ```ruby
       schedule = []
-      blocks = single trains sections
-      queue = array of ordered trains waiting to enter first block
+      blocks = list_single_track_sections
+      queue = ordered_trains_waiting_to_enter_first_block
       while queue do
          train = trains.pop
          block = next_block(current_station, blocks)
@@ -51,14 +51,13 @@ The most obvious brute force approach is simply to cycle through every schedulin
             trains << train
          end
       end
-      return schedule`
+      return schedule
 ```
-
-
 
 The former example is superficially similar to the algorithmic approach I take but instead of trying to schedule all trains per open block I optimize for connections, applying approximate calcuations (I guess would qualify as heuristics) to avoid unnecessary cycles. This is a pretty typical way to tackle a problem like this and produces what are known as 'greedy' algorithms:
 
 > [A greedy algorithm is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.](https://en.wikipedia.org/wiki/Greedy_algorithm)
+> -- <cite>[Wikipedia]</cite>
 
 My goal really is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. As opposed to finding the optimum scheduling possible or indeed verifying that.
 

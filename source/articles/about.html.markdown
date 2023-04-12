@@ -17,6 +17,8 @@ The actual service itself as mentioned [elsewhere](#history) has been going sinc
 
 It is possible today to get as far as Westport but the service is an afterthought to say the least. There are a handful of viable connections each way, three in the evening from Ballina (none before 3pm) and a couple before lunch from Westport and one in the evening. The travel time is competitive but could be much better (50-55 mins), there is the penalty of a modal change (though the connection is guaranteed) and day returns are not really doable. It’s just about better than nothing but people do use it nevertheless. Even for something as simple as a Mayo match in Castlebar, it’s not really usable.
 
+Direct trains could be implemented immediately [as the hastily convened arrangements for the visit of Joe Biden amply demonstrate](https://www.irishrail.ie/en-ie/news/President-Joe-Biden-visits-Ballina). If there's a will, there's a way.
+
 ### Why I built this site.
 
 Well for one thing it was Christmas and I had time on my hands but it was probably the following (excellent) tweet I spotted some time ago that first got me thinking about it again:
@@ -25,7 +27,7 @@ Well for one thing it was Christmas and I had time on my hands but it was probab
 >
 > — 15-Minute Westport (@15minWestport) [April 2, 2021](https://twitter.com/15minWestport/status/1377996729006616580?ref_src=twsrc%5Etfw)
 
-Then a few months ago I attended the Ballina-Westport county final, an incredibly frustrating day and not just because of the result! I witnessed hoards of people piling in from both ends of the track in their cars (including myself and my uncle), clogging up Castlebar as happens on every match day, with the station lying idle and adjacent to McHale park. [The frustration of residents regarding the current arrangements is on record](https://www.mayonews.ie/news/38427-match-day-parking-a-nightmare-for-residents
+Then a few months ago I attended the Ballina-Westport county final, an incredibly frustrating day and not just because of the result! I witnessed hoards of people piling into town from both ends of the track in their cars (including myself and my uncle), clogging up Castlebar as happens on every match day, with the station lying idle and adjacent to McHale park. [The frustration of residents regarding the current arrangements is on record](https://www.mayonews.ie/news/38427-match-day-parking-a-nightmare-for-residents
 ) but I also thought of all the lost business for Castlebar. How nice it would be to have a pint or two before or after the match, maybe a bite to eat, to mingle and chat with other fans on the train. Instead matchday is all about the car: the search for parking; the rush up; trying to beat the traffic out of town and finally the tiring drive home, sometimes in dangerous weather conditions. Stress and haste - not the day out it should be.
 
 Leaving with our tail between our legs we passed the building site of the new bypass of the original bypass of Castlebar, a motorway of all things, terminating in Westport. Bizarre. What will happen to the extra traffic when it reaches Westport? Was a public transport option considered by the N(R)TA before greenlighting? Perhaps this was the final motivation required to revive the Maightró idea.
