@@ -6,34 +6,44 @@ tags: articles
 
 ---
 
-Code and Analysis of Options
+Analysis of Service Options
 ----------------------------
 
-Repo here: https://github.com/seocahill/maightro. Accepting PRs especially aesthetically minded, I last did frontend dev in 2014! [Unlicense.](https://github.com/seocahill/maightro/blob/main/LICENSE)
+- You can find the code repo [here](https://github.com/seocahill/maightro), it has an [unlicense](https://github.com/seocahill/maightro/blob/main/LICENSE).
+- [Go here](/articles/results.html) to skip straight to the statistical data for each algorithm.
 
-### Overview
+### General overview
 
-If you are reading this and are technically inclined you’ll know from your algorithm book of choice that scheduling is one of the canonical examples of an NP hard problem.
+If you are reading this and are technically inclined you’ll know from your algorithm book of choice that scheduling is one of the canonical examples of an [NP hard problem](https://en.wikipedia.org/wiki/NP-hardness).
 
-In the wild, if your research this, common approaches include:
+In the wild, if your research this, common approaches include the following:
 
-*   Mathematical programming e.g. ILP [job shop scheduling problem python](https://python-mip.readthedocs.io/en/latest/examples.html)
-*   Heuristics e.g. genetic algorithms [python example](https://github.com/akazuko/timetable_scheduler)
-*   Simulation e.g [Opentrack](http://www.opentrack.ch/opentrack/opentrack_e/opentrack_e.html)
+*   Using Mathematical programming, for example [ILP](https://en.wikipedia.org/wiki/Integer_programming) as demonstrated in this [job shop scheduling problem project](https://python-mip.readthedocs.io/en/latest/examples.html)
+*   Heuristics, for example [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm), as demonstrated in this [python example](https://github.com/akazuko/timetable_scheduler)
+*   Simulation, as used by SBB's [Opentrack](http://www.opentrack.ch/opentrack/opentrack_e/opentrack_e.html) library.
 
-This particular genus of the scheduling problem, Single track scheduling, is solved with algorithms that feature common inputs like blocks (spaces between stations upon which only one train can be scheduled) and certain assumptions that trains can cross at stations not always the case in our specific example unfortunately).
+The particular genus of the scheduling problem that Maytro presents, Single track scheduling, is solved with algorithms that feature common inputs like blocks (spaces between stations upon which only one train can be scheduled) and certain assumptions that trains can cross at stations not always the case in our specific example unfortunately).
 
-Below is a space time diagram to help visualize this [1](#fn1). The nodes are stations, the vertices are blocks (think a single track stretch), the vertical axis represents time moving forward. Each sloping line is a train occupying a block in time. In order to schedule validly, sloping lines within a block can’t intersect.
+Below is an example space time diagram that is typically used to help visualize the problem [1](#fn1).
 
 ![space time diagram for train scheduling on single track](https://d3i71xaburhd42.cloudfront.net/868a9cb615872c8cfbfcdb9c9145eb22095afb9d/5-Figure1-1.png)
 
-The particular problem this code seeks to solve is the scheduling of as many trains as feasible given normal domain constraints (blocks, rolling stock) on three intersecting routes
+- The nodes, S<sub>n</sub>, are stations
+- The vertices, F<sub>n</sub>, are blocks (think a single track stretch between two stations)
+- The vertical axis represents time moving forward.
+- Each sloping line is a train occupying a block in time.
 
-*   the Nephin: Ballina - Westport
-*   the Covey: Westport - Ballyhaunis
-*   the Costello: Ballyhaunis - Ballina
+In order to schedule validly, sloping lines within a block can’t intersect.
 
-and scenario specific constraints (there are four different scenarios, the baseline being the current service).
+### Scheduling Maytro
+
+The particular problem my code seeks to solve is the scheduling of as many trains as feasible given normal domain constraints (blocks, rolling stock) on three intersecting routes:
+
+*   The Nephin: Ballina - Westport
+*   The Covey: Westport - Ballyhaunis
+*   The Costello: Ballyhaunis - Ballina
+
+Scenario specific constraints also apply (there are four different scenarios, the baseline being the current service).
 
 The most obvious brute force approach is simply to cycle through every scheduling option, something like (pseudocode)
 
@@ -54,12 +64,12 @@ The most obvious brute force approach is simply to cycle through every schedulin
       return schedule
 ```
 
-The former example is superficially similar to the algorithmic approach I take but instead of trying to schedule all trains per open block I optimize for connections, applying approximate calcuations (I guess would qualify as heuristics) to avoid unnecessary cycles. This is a pretty typical way to tackle a problem like this and produces what are known as 'greedy' algorithms:
+The former example is superficially similar to the algorithmic approach I take but instead of trying to schedule all trains per open block I optimize for connections, applying approximate calcuations (heuristics) to avoid unnecessary cycles. This is a pretty typical way to tackle a problem like this and produces what are known as 'greedy' algorithms:
 
 > [A greedy algorithm is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.](https://en.wikipedia.org/wiki/Greedy_algorithm)
 > -- <cite>[Wikipedia]</cite>
 
-My goal really is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. As opposed to finding the optimum scheduling possible or indeed verifying that.
+My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that.
 
 This approach also makes sense as I (generally, the exception being scenario 2) have give myself the constraint that I can’t reschedule already scheduled trains in order to make realising some version of Maytró as feasible as possible.
 
@@ -150,7 +160,7 @@ A proper approach would have been to introduce an extra block (Ballyhaunis - Cla
 
 ### Comparison of Algorithms
 
-You can further analysis the aforementioned algorithms via an interactive interface [here](/results.html)
+You can further analyse the aforementioned algorithms via an interactive interface [here](/results.html)
 
 * * *
 
