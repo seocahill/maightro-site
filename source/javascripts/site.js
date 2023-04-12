@@ -10,7 +10,11 @@ function swapValues() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const today = new Date().toISOString().split('T')[0];
-  document.getElementById("date").setAttribute('max', today);
-  document.getElementById("date").setAttribute('value', today);
+  const today = new Date();
+  const defaultDate = today.toISOString().split('T')[0];
+  today.setFullYear(today.getFullYear() + 1);
+  const oneYearFromToday = today.toISOString().split('T')[0];
+
+  document.getElementById("date").setAttribute('max', oneYearFromToday);
+  document.getElementById("date").setAttribute('value', defaultDate);
 });
