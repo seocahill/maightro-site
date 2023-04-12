@@ -62,11 +62,3 @@ activate :blog do |blog|
   blog.sources = "{title}.html"
   blog.permalink = "{title}.html"
 end
-
-# activate :blog do |blog|
-#   blog.name = "projects"
-#   blog.prefix = "projects"
-#   blog.layout = "article_layout"
-#   blog.sources = "{title}.html"
-#   blog.permalink = "{title}.html"
-# end
