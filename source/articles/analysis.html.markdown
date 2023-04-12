@@ -149,28 +149,10 @@ The only optimization here (if you can call it that) is to check if the extensio
 
 A proper approach would have been to introduce an extra block (Ballyhaunis - Claremorris) and schedule from scratch factoring in the passing possibilities therein. The approach here is likely not optimal but still a significant improvement on the status quo.
 
+### Comparison of Algorithms
+
+You can further analysis the aforementioned algorithms via an interactive interface [here](/results)
+
 * * *
 
 1.  _1\. Single Track Train Scheduling, Jonas Harbering · Abhiram Ranade · Marie Schmidt (January 2015)_
-
-
-### Results
-
-Listed below you’ll find some statistics for each option, for each possible trip namely:
-
-*   number of trains scheduled (N)
-*   worst case trip time minutes (W)
-*   mean trip time minutes (M)
-*   frequency of service hours (F)
-
-For each "change" option you will see the percentage difference with the current service (Δ). Frequency has no delta because service start and end differ from the baseline.
-
-*   Current
-*   Improved
-*   Ballina - Westport direct
-*   Claremorris
-*   Ballyhaunis
-
-#### Analysis:
-
-...tbd

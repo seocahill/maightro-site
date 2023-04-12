@@ -1,0 +1,27 @@
+---
+layout: "results_layout"
+title: "Algorithm comparison tables"
+---
+
+<h3 id="results">Algorithm comparison tables</h3>
+<p>Listed below you’ll find statistics for each possible trip namely:
+  <ul>
+    <li>number of trains scheduled (N)</li>
+    <li>worst case trip time in minutes  (W)</li>
+    <li>mean trip time in minutes (M)</li>
+    <li>frequency of service in hours (F)</li>
+  </ul>
+  For each "change" option you will see the percentage difference with the current service (&#916;). Frequency has no delta because service start and end differ from the baseline.
+  Click on the links below to change the Algorithm used to generated the data.
+</p>
+<p>
+  <ul class="nav nav-tabs flex flex-col md:flex-row flex-wrap list-none border-b-0 pl-0 mb-4" id="tabs" hx-target="#analysis-contents" _="on htmx:afterOnLoad take .selected for event.target">
+    <li class="nav-item" role="presentation"><a class="nav-link block font-medium leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent" hx-get="//localhost:9292/analysis?scenario=Option1" class="selected">Current</a></li>
+    <li class="nav-item" role="presentation"><a class="nav-link block font-medium leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent" hx-get="//localhost:9292/analysis?scenario=Option1a">Improved</a></li>
+    <li class="nav-item" role="presentation"><a class="nav-link block font-medium leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent" hx-get="//localhost:9292/analysis?scenario=Option2">Direct</a></li>
+    <li class="nav-item" role="presentation"><a class="nav-link block font-medium leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent" hx-get="//localhost:9292/analysis?scenario=Option3">Claremorris</a></li>
+    <li class="nav-item" role="presentation"><a class="nav-link block font-medium leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent" hx-get="//localhost:9292/analysis?scenario=Option3b">Ballyhaunis</a></li>
+  </ul>
+</p>
+<div id="analysis-contents">
+</div>
