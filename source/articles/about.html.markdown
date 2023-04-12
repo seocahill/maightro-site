@@ -6,7 +6,7 @@ tags: articles
 
 ---
 
-About Maytro
+About Maytró
 --------------
 
 “Maytró” (this website) is conceived to be both practical and aspirational. At heart it’s simply an online rail journey planner exclusively branded for Mayo people. Its other purpose is to demonstrate concretely, how easy it would be to provide significantly more useful local rail services than those currently offered.
@@ -34,7 +34,7 @@ Leaving with our tail between our legs we passed the building site of the new by
 
 ### How it works
 
-For a deeper dive into the code you can [check this page out](/code) but here’s a quick non-technical overview. All train data is pulled from the same source as the irishrail website/app. On top of that I offer 5 different “flavours” of maytró to choose from. The approach is to start with existing services and progressively enhance them, using available resources.
+For a deeper dive into the code you can [check this page out](/articles/analysis.html) but here’s a quick non-technical overview. All train data is pulled from the same source as the irishrail website/app. On top of that I offer 5 different “flavours” of maytró to choose from. The approach is to start with existing services and progressively enhance them, using available resources.
 
 *   Option 1 is simply the status quo, just presented to you in a more Mayo-centric fashion. You can use this as you would irishrail.ie.
 *   Option 2 improves on the status quo by shifting trains around to make better connections so all trains are usable.
@@ -42,12 +42,12 @@ For a deeper dive into the code you can [check this page out](/code) but here’
 *   Option 4 adds a fictional extra railcar starting from Claremorris (inspired by the 15 minutes Westport group tweet) to complete the Maytró network! The idea here is to run it up and down to Westport while connecting to Ballina trains as much as possible given the constraints of existing real trains.
 *   Option 5 is as above but extended to Ballyhaunis.
 
-You can find a statistical analysis of each option [here.](/code#results) There are also some limitations to this current iteration worth mentioning:
+You can find a statistical analysis of each option [here.](/articles/analysis.html#results) There are also some limitations to this current iteration worth mentioning:
 
 *   I assume extra resources when needed for a particular option (staff, fuel, extra rolling stock etc) are simply available.
 *   I haven’t specifically preserved paths for freight trains as I don’t have an information on scheduling.
 *   The junction layout at Manulla is not optimal when two trains have to cross.
-*   Some options have specific limitations, see page on [code](#code) for more.
+*   Some options have specific limitations, see page on [code](/articles/analysis.html#code) for more.
 
 Having admitted the above, these limitations are trivial, taking into account the scope of the project itself. This is not metrolink.
 

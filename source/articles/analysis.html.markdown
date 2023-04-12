@@ -22,7 +22,7 @@ In the wild, if your research this, common approaches include the following:
 *   Heuristics, for example [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm), as demonstrated in this [python example](https://github.com/akazuko/timetable_scheduler)
 *   Simulation, as used by SBB's [Opentrack](http://www.opentrack.ch/opentrack/opentrack_e/opentrack_e.html) library.
 
-The particular genus of the scheduling problem that Maytro presents, Single track scheduling, is solved with algorithms that feature common inputs like blocks (spaces between stations upon which only one train can be scheduled) and certain assumptions that trains can cross at stations not always the case in our specific example unfortunately).
+The particular genus of the scheduling problem that Maytró presents, Single track scheduling, is solved with algorithms that feature common inputs like blocks (spaces between stations upon which only one train can be scheduled) and certain assumptions that trains can cross at stations not always the case in our specific example unfortunately).
 
 Below is an example space time diagram that is typically used to help visualize the problem [1](#fn1).
 
@@ -35,7 +35,7 @@ Below is an example space time diagram that is typically used to help visualize 
 
 In order to schedule validly, sloping lines within a block can’t intersect.
 
-### Scheduling Maytro
+### Scheduling Maytró
 
 The particular problem my code seeks to solve is the scheduling of as many trains as feasible given normal domain constraints (blocks, rolling stock) on three intersecting routes:
 
@@ -69,7 +69,7 @@ The former example is superficially similar to the algorithmic approach I take b
 > [A greedy algorithm is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.](https://en.wikipedia.org/wiki/Greedy_algorithm)
 > -- <cite>[Wikipedia]</cite>
 
-My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that. I have accepted the general constraint that I can’t reschedule existing trains (excepting in a very limited way for option 2) in order to make realising some version of Maytro as feasible as possible. This trade off basically rules out an optimal solution.
+My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that. I have accepted the general constraint that I can’t reschedule existing trains (excepting in a very limited way for option 2) in order to make realising some version of Maytró as feasible as possible. This trade off basically rules out an optimal solution.
 
 ### Scenarios
 

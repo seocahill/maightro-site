@@ -9,7 +9,7 @@ tags: articles
 History
 -------
 
-"Maytro" is a reboot of “Mayolink”, an idea developed by Frank Dawson, a native of Claremorris and the former CEO of Roscommon County Council.
+"Maytró" is a reboot of “Mayolink”, an idea developed by Frank Dawson, a native of Claremorris and the former CEO of Roscommon County Council.
 
 I met Frank as part of an eclectic group of students, railway enthusiasts, environmentalists, business people, rail-freight professionals, local politicians and activists who came together in 2002 to fight the latest attempt by Iarnród Éireann to close regional railways, including the Ballina line.
 
