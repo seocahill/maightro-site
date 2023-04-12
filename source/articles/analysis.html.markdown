@@ -10,7 +10,7 @@ Analysis of Service Options
 ----------------------------
 
 - You can find the code repo [here](https://github.com/seocahill/maightro), it has an [unlicense](https://github.com/seocahill/maightro/blob/main/LICENSE).
-- [Go here](/articles/results.html) to skip straight to the statistical data for each algorithm.
+- [Go here](/results.html) to skip straight to the statistical data for each algorithm.
 
 ### General overview
 
