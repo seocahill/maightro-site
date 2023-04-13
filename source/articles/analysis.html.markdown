@@ -29,11 +29,11 @@ Below is an example space time diagram that is typically used to help visualize 
 ![space time diagram for train scheduling on single track](https://d3i71xaburhd42.cloudfront.net/868a9cb615872c8cfbfcdb9c9145eb22095afb9d/5-Figure1-1.png)
 
 - The nodes, S<sub>n</sub>, are stations
-- The vertices, F<sub>n</sub>, are blocks (think a single track stretch between two stations)
+- The vertices, F<sub>(x,y)</sub>, are blocks (think a single track stretch between two stations)
 - The vertical axis represents time moving forward.
 - Each sloping line is a train occupying a block in time.
 
-In order to schedule validly, sloping lines within a block can’t intersect.
+In order to create a valid schedule, sloping lines within a block can’t intersect.
 
 ### Scheduling Maytró
 
@@ -67,9 +67,9 @@ The most obvious brute force approach is simply to cycle through every schedulin
 The former example is superficially similar to the algorithmic approach I take but instead of trying to schedule all trains per open block I optimize for connections, applying approximate calculations (heuristics) to avoid unnecessary cycles. This is a typical way to tackle a problem like this and produces what are referred to as 'greedy' algorithms:
 
 > [A greedy algorithm is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.](https://en.wikipedia.org/wiki/Greedy_algorithm)
-> -- <cite>[Wikipedia]</cite>
+> -- <cite>[from Wikipedia]</cite>
 
-My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that. I have accepted the general constraint that I can’t reschedule existing trains (excepting in a very limited way for option 2) in order to make realising some version of Maytró as feasible as possible. This trade off basically rules out an optimal solution.
+My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that. I have accepted the general constraint that rescheduling existing trains (excepting in a very limited way for option 2) would render any putative solution infeasible. This trade off basically rules out an optimal solution.
 
 ### Scenarios
 
@@ -118,11 +118,7 @@ This scenario has one major limitation. Ideally when rescheduling, a check would
 *   It turns out the algorithm only needs to reschedule a single Covey train to achieve acceptable results
 *   This option is not my preferred solution, it’s inferior to Option 2.
 
-It would be a nice challenge to go through some weekend.
-
-Incidentally I did supply an approximation of the results of this exercise as a submission to the new timetable consultation without success or without even receiving what seems to be the new standard acknowledgement:
-
-> IÉ in conjunction with the NTA will continue to investigate possibilities for implementation at a later stage Driver resources not available for implementation
+Incidentally I did supply an approximation of the results of this exercise as a submission to the new timetable consultation without success or acknowledgement.
 
 #### Option 2
 
@@ -148,7 +144,7 @@ The scheduling optimizations applied are as follows:
 *   if connection possible, make the connection
 *   otherwise just schedule an extra Costello service with no connection.
 
-#### Option3b
+#### Option 3b
 
 For option3b the Costello is extended all the way to the border, Ballyhaunis town.
 
@@ -156,9 +152,15 @@ The only optimization here (if you can call it that) is to check if the extensio
 
 A proper approach would have been to introduce an extra block (Ballyhaunis - Claremorris) and schedule from scratch factoring in the passing possibilities therein. The approach here is likely not optimal but still a significant improvement on the status quo.
 
-##### Option4
+#### Option 4
 
-The missing algorithm! This would be the optimal solution aka "Switzerland". TBD.
+The missing algorithm! This would be the optimal solution aka "Switzerland". Sadly I don't, as of writing, have the free time to investigate this option. It would involve:
+
+- Adding back route flexibility that has been removed over the years, i.e. passing loops at each station.
+- Bringing average speeds into line with European standards for regional rail.
+- Scheduling trains to optimal frequency, given the geography of the line.
+
+As a very rough rule of thumb, accepting that the former improvements were made, one could assume the longest block (Foxford to Castlebar) to take about 10 minutes to traverse and all blocks to be roughly equal in length. In such a scenario a headway of ~20 minutes would be theoretically possible, even on a single track.
 
 ### Comparison of Algorithms
 

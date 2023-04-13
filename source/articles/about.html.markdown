@@ -11,26 +11,26 @@ About Maytró
 
 “Maytró” (this website) is conceived to be both practical and aspirational. At heart it’s simply an online rail journey planner exclusively branded for Mayo people. Its other purpose is to demonstrate concretely, how easy it would be to provide significantly more useful local rail services than those currently offered.
 
-The name (apologies if obvious) is a combination of Mayo and metro, Maigh Eo agus meitreo i nGaeilge. The original project, the inspiration for this proposal, was called "Mayolink".
+The name (apologies if obvious) is a combination of Mayo and metro and Maigh Eo agus meitreo i nGaeilge - "Maightreo" mar a tugann mé air. The original project, the inspiration for this proposal, was called "Mayolink".
 
-The actual service itself as mentioned [elsewhere](#history) has been going since 2007. “Phase 1” (let’s hopefully call it!) covers a grand total of 15 miles between Foxford and Ballina. There are eight trains each way, the first one leaving Ballina at 5:05 and the last one arriving back in Ballina 21:32. The interval between each train in either direction is about 2 hours on average. This makes it a more frequent service than any available in Derry, Limerick, Galway or Waterford, numbers four to seven of Ireland’s most populous cities. It’s a glimpse of what the service could really be like, if it was operated in a way that sought to maximize available resources.
+The actual service itself as mentioned [elsewhere](#history) has been going since 2007. “Phase 1” (let’s hopefully call it!) covers a grand total of 15 miles between Foxford and Ballina. There are eight trains each way, the first one leaving Ballina at 5:05 and the last one arriving back in Ballina 21:32. The interval between each train in either direction is about 2 hours on average. This makes it a more frequent service than any available in Limerick, Galway or Waterford, numbers three to five of Ireland’s most populous cities. It’s a glimpse of what the service could really be like, if it was operated in a way that sought to maximize available resources.
 
-It is possible today to get as far as Westport but the service is an afterthought to say the least. There are a handful of viable connections each way, three in the evening from Ballina (none before 3pm) and a couple before lunch from Westport and one in the evening. The travel time is competitive but could be much better (50-55 mins), there is the penalty of a modal change (though the connection is guaranteed) and day returns are not really doable. It’s just about better than nothing but people do use it nevertheless. Even for something as simple as a Mayo match in Castlebar, it’s not really usable.
+It is possible today to get as far as Westport but the service is an afterthought to say the least. There are a handful of viable connections each way, three in the evening from Ballina (none before 3pm) and a couple before lunch from Westport and one in the evening. The travel time is competitive but could be much better (50-55 mins or about 65 km/h on average), there is the penalty of a modal change (though the connection is guaranteed) and day returns are not really doable. It’s just about better than nothing but people do use it nevertheless. Even for something as simple as a Mayo match in Castlebar, it’s not really usable.
 
-Direct trains could be implemented immediately [as the hastily convened arrangements for the visit of Joe Biden amply demonstrate](https://www.irishrail.ie/en-ie/news/President-Joe-Biden-visits-Ballina). If there's a will, there's a way.
+### Why I built this site
 
-### Why I built this site.
-
-Well for one thing it was Christmas and I had time on my hands but it was probably the following (excellent) tweet I spotted some time ago that first got me thinking about it again:
+It was probably the following (excellent) tweet I spotted some time ago that first got me thinking about a local Mayo rail service again:
 
 > Something we're discussing locally is the creation of a frequent, reliable rail service for Mayo. Three shuttle trains, meeting in Manulla, could provide an hourly service linking six towns (1/3 of Mayo's population). Don't be fooled by the name - we're serious about this. [#MART](https://twitter.com/hashtag/MART?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/d1d7LW7rZu](https://t.co/d1d7LW7rZu)
 >
 > — 15-Minute Westport (@15minWestport) [April 2, 2021](https://twitter.com/15minWestport/status/1377996729006616580?ref_src=twsrc%5Etfw)
 
-Then a few months ago I attended the Ballina-Westport county final, an incredibly frustrating day and not just because of the result! I witnessed hoards of people piling into town from both ends of the track in their cars (including myself and my uncle), clogging up Castlebar as happens on every match day, with the station lying idle and adjacent to McHale park. [The frustration of residents regarding the current arrangements is on record](https://www.mayonews.ie/news/38427-match-day-parking-a-nightmare-for-residents
+Then a few months after I attended the Ballina-Westport county football final, an incredibly frustrating day and not just because of the result! I witnessed hoards of people piling into town from both ends of the track in their cars (including myself and my uncle), clogging up Castlebar as happens on every match day, with the station lying idle and adjacent to McHale park. [The frustration of residents regarding the current arrangements is on record](https://www.mayonews.ie/news/38427-match-day-parking-a-nightmare-for-residents
 ) but I also thought of all the lost business for Castlebar. How nice it would be to have a pint or two before or after the match, maybe a bite to eat, to mingle and chat with other fans on the train. Instead matchday is all about the car: the search for parking; the rush up; trying to beat the traffic out of town and finally the tiring drive home, sometimes in dangerous weather conditions. Stress and haste - not the day out it should be.
 
-Leaving with our tail between our legs we passed the building site of the new bypass of the original bypass of Castlebar, a motorway of all things, terminating in Westport. Bizarre. What will happen to the extra traffic when it reaches Westport? Was a public transport option considered by the N(R)TA before greenlighting? Perhaps this was the final motivation required to revive the Maytró idea.
+Leaving with our tail between our legs we passed the building site of the new bypass of the original bypass of Castlebar, a motorway terminating in Westport. I struggled to find any logical reasoning for this project. What will happen to the extra traffic when it reaches Westport? Is a motorway build (current cost 350m euro) really justified? Was a public transport option considered by the NTA before greenlighting? How will it contribute to the legally mandated reduction in private transport emmissions?
+
+Perhaps this was the final motivation required to build the Maytró site, that is to raise awareness of more sensible solutions to serving Mayo's transport needs leveraging existing, under-utilised infrastructure.
 
 ### How it works
 
@@ -42,7 +42,7 @@ For a deeper dive into the code you can [check this page out](/articles/analysis
 *   Option 4 adds a fictional extra railcar starting from Claremorris (inspired by the 15 minutes Westport group tweet) to complete the Maytró network! The idea here is to run it up and down to Westport while connecting to Ballina trains as much as possible given the constraints of existing real trains.
 *   Option 5 is as above but extended to Ballyhaunis.
 
-You can find a statistical analysis of each option [here.](/articles/analysis.html#results) There are also some limitations to this current iteration worth mentioning:
+You can find a statistical analysis of each option [here.](/results.html) There are also some limitations to this current iteration worth mentioning:
 
 *   I assume extra resources when needed for a particular option (staff, fuel, extra rolling stock etc) are simply available.
 *   I haven’t specifically preserved paths for freight trains as I don’t have an information on scheduling.
@@ -51,7 +51,7 @@ You can find a statistical analysis of each option [here.](/articles/analysis.ht
 
 Having admitted the above, these limitations are trivial, taking into account the scope of the project itself. This is not metrolink.
 
-### Why the Maytró should happen
+### Maytró Policy context
 
 No public service will happen unless it is Government policy, and there is lots of relevant policy, past and present, squarely behind Maytró.
 
@@ -91,9 +91,9 @@ Although this is purely an exercise in creative thinking the effect of imagining
 
 > ‘The Wild Atlantic Way showed how better “framing” can produce extraordinary results without extraordinary expenditure.’
 
-I propose that the Maytró could have a similar transformative effect on the perception of our towns.
+I propose that Maytró could have a similar transformative effect on the perception of our towns.
 
-### Summing up
+### Summation
 
 Maytró is a simple idea that could be massively progressive for Mayo. Whether a matter of historical luck or perspicacious design, Mayo has been left with five of its six largest towns linked directly by rail. Up to half the county's population could be benefiting from high quality public transport. This would have a transformative effect on the collective perception of the county from within and without.
 
@@ -103,6 +103,6 @@ While other regional cities are starting to talk about implementing local rail s
 
 In my opinion it would be infinitely more beneficial for Mayo if its railways changed focus to knitting local urban settlements together into a whole (as happens in a traditional city) instead of delivering people to Dublin. The last number of decades has seen knowledge freed from physical centralization. This was followed during the pandemic by the distribution of the workplace, long delayed due to resistance from rentiers and the manager-worker power dynamic but finally born out of necessity. The dominance of a single location in Ireland is an anachronism historically and it makes no sense under our current social conditions, yet our thinking around public transport provision is still wired that way.
 
-There is no reasonable obstacle to implementation of Maytró, which could be done almost immediately, except the mentality of the parties that control public transport in Ireland. Despite the mainstreaming of greenwashing, and thus the necessity to project a favourable response to any proposal for enhanced public transport, I have yet to witness any real commitment to public transport provision by the transport troika, Iarnród Éireann, the NTA and the Department of Transport. Rather the historical emphasis on roads, Dublin and the managed decline of the regional railways at least, still seems to hold sway. I would love to be proved wrong of course!
+There is no reasonable obstacle to implementation of Maytró, which could be done almost immediately, [as the hastily convened arrangements for the visit of Joe Biden amply demonstrate](https://www.irishrail.ie/en-ie/news/President-Joe-Biden-visits-Ballina). If there's a will, there's a way.
 
 Twenty years ago the original Mayo delegation comprising TDs, urban and county councillors, IRD members and others managed to win the grudging concession that is the current service today, a foot in the door, if you will. I’m sure if such a delegation could be put together today to push the project forward again it would find a much more favourable reception.
