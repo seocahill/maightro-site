@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const defaultDate = today.toISOString().split('T')[0];
   today.setFullYear(today.getFullYear() + 1);
   const oneYearFromToday = today.toISOString().split('T')[0];
-
-  document.getElementById("date").setAttribute('max', oneYearFromToday);
-  document.getElementById("date").setAttribute('value', defaultDate);
+  if (document.getElementById("date")) {
+    document.getElementById("date").setAttribute('max', oneYearFromToday);
+    document.getElementById("date").setAttribute('value', defaultDate);
+  }
 });

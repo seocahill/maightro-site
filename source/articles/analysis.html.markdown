@@ -156,11 +156,11 @@ A proper approach would have been to introduce an extra block (Ballyhaunis - Cla
 
 The missing algorithm! This would be the optimal solution aka "Switzerland". Sadly I don't, as of writing, have the free time to investigate this option. It would involve:
 
-- Adding back route flexibility that has been removed over the years, i.e. passing loops at each station.
+- Adding back route flexibility that has been removed over the years, i.e. small passing loops at Foxford, Manulla, Castlebar.
 - Bringing average speeds into line with European standards for regional rail.
 - Scheduling trains to optimal frequency, given the geography of the line.
 
-As a very rough rule of thumb, accepting that the former improvements were made, one could assume the longest block (Foxford to Castlebar) to take about 10 minutes to traverse and all blocks to be roughly equal in length. In such a scenario a headway of ~20 minutes would be theoretically possible, even on a single track.
+As a very rough rule of thumb, accepting that the aforementioned improvements were made, one could assume the longest block (Foxford to Castlebar) to take about 10 minutes to traverse and all blocks to be roughly equal in length. In such a scenario a headway of ~20 minutes would be theoretically possible, even on a single track.
 
 ### Comparison of Algorithms
 
