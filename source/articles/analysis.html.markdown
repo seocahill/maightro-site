@@ -164,7 +164,7 @@ As a very rough rule of thumb, accepting that the aforementioned improvements we
 
 ### Comparison of Algorithms
 
-You can further analyse the aforementioned algorithms via an interactive interface [here](/results.html)
+You can further analyse the aforementioned algorithms via an interactive table [here](/results.html)
 
 * * *
 

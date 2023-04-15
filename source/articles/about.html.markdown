@@ -9,9 +9,9 @@ tags: articles
 About Maytró
 --------------
 
-“Maytró” (this website) is conceived to be both practical and aspirational. At heart it’s simply an online rail journey planner exclusively branded for Mayo people. Its other purpose is to demonstrate concretely, how easy it would be to provide significantly more useful local rail services than those currently offered.
+“Maytró” (this website) is conceived to be both practical and aspirational. At heart it’s simply an online rail journey planner exclusively branded for Mayo. Its other purpose is to demonstrate concretely, how easy it would be to provide significantly more useful local rail services than those currently offered.
 
-The name (apologies if obvious) is a combination of Mayo and metro and Maigh Eo agus meitreo i nGaeilge - "Maightreo" mar a tugann mé air. The original project, the inspiration for this proposal, was called "Mayolink".
+The name (apologies if obvious) is a combination of Mayo and metro and Maigh Eo agus méitreo i nGaeilge - "Maightreo" mar a thugaim air. The original project, the inspiration for this proposal, was called "Mayolink".
 
 The actual service itself as mentioned [elsewhere](#history) has been going since 2007. “Phase 1” (let’s hopefully call it!) covers a grand total of 15 miles between Foxford and Ballina. There are eight trains each way, the first one leaving Ballina at 5:05 and the last one arriving back in Ballina 21:32. The interval between each train in either direction is about 2 hours on average. This makes it a more frequent service than any available in Limerick, Galway or Waterford, numbers three to five of Ireland’s most populous cities. It’s a glimpse of what the service could really be like, if it was operated in a way that sought to maximize available resources.
 
@@ -30,7 +30,7 @@ Then a few months after I attended the Ballina-Westport county football final, a
 
 Leaving with our tail between our legs we passed the building site of the new bypass of the original bypass of Castlebar, a motorway terminating in Westport. I struggled to find any logical reasoning for this project. What will happen to the extra traffic when it reaches Westport? Is a motorway build (current cost 350m euro) really justified? Was a public transport option considered by the NTA before greenlighting? How will it contribute to the legally mandated reduction in private transport emmissions?
 
-Perhaps this was the final motivation required to build the Maytró site, that is to raise awareness of more sensible solutions to serving Mayo's transport needs leveraging existing, under-utilised infrastructure.
+Perhaps this was the final motivation required to build the Maytró site, that is to raise awareness of alternative approaches to solving Mayo's transport problems, solutions that leverage existing, under-utilised infrastructure.
 
 ### How it works
 
@@ -51,11 +51,11 @@ You can find a statistical analysis of each option [here.](/results.html) There 
 
 Having admitted the above, these limitations are trivial, taking into account the scope of the project itself. This is not metrolink.
 
-### Maytró Policy context
+### Policy
 
 No public service will happen unless it is Government policy, and there is lots of relevant policy, past and present, squarely behind Maytró.
 
-Starting with the recent past, [The National Spatial Strategy (2002 - 2022)](https://npf.ie/nss/) while by no means flawless, was the superior predecessor of the current National Planning Framework which will exacerbate already extreme centralization, to the benefit of no-one except the city rentiers. The NSS focused on redressing the imbalances of Dublin-centric unconstrained growth, fostering regional development by clustering smaller towns together to create something akin to city scale or a counter balance to prevailing centrifugal forces at least. Among the secondary ‘hubs’ identified was Ballina-Castlebar. BellinBar (or is it CashelNah?) never got off the ground. As was the case with most of the putative hubs and gateways in the NSS, Dublin ate their lunch. Needless to say utilizing the idle railway between the two towns a bit better (or at all) might have helped to make a meaningful connection between the two something more than an aspiration. In conventional urban areas, after all, it is almost always the local genus of metro, that embodies both the real and symbolic nervous system connecting the disparate parts of the urban.
+Starting with the recent past, [The National Spatial Strategy (2002 - 2022)](https://npf.ie/nss/) while by no means flawless, was the superior predecessor of the current National Planning Framework which will exacerbate already extreme centralization, to the benefit of no-one except the city rentiers. The NSS focused on redressing the imbalances of Dublin-centric unconstrained growth, fostering regional development by clustering smaller towns together to create something akin to city scale or a counter balance to prevailing centrifugal forces at least. Among the secondary ‘hubs’ identified was Ballina-Castlebar, a sociopolitical concept that sadly never got off the ground. As was the case with most of the putative hubs and gateways in the NSS, Dublin ate their lunch. Needless to say utilizing the idle railway between the two towns a bit better (or at all) might have helped to make a meaningful connection between the two something more than an aspiration. In conventional urban areas, after all, it is almost always the local genus of metro, that embodies both the real and symbolic nervous system connecting the disparate parts of the urban.
 
 The [updated climate action plan](https://www.gov.ie/en/publication/7bd8c-climate-action-plan-2023/) is a low detail document with plenty of big figures, most relevant being percentage cuts in private transport emissions. Vague references are made to increased rail “in the cities” with the headline scheme that’s not in Dublin, being in Cork. Schemes that require hardhats, juicy private tenders and will happen in the future, if they do at all. Why not make use of existing rail resources to cut emissions tomorrow instead of in five years? Why do regions have to wait for “the cities” to get their act together? Maightro is better than a shovel-ready project as no shovel is required! People who live outside "the cities" would be less cynical about climate action plans if existing services were run in a way that could enable them to drive less. Maytró would be climate policy made climate action, something that is sorely needed.
 
