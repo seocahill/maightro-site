@@ -22,7 +22,7 @@ In the wild, if your research this, common approaches include the following:
 *   Heuristics, for example [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm), as demonstrated in this [python example](https://github.com/akazuko/timetable_scheduler)
 *   Simulation, as used by SBB's [Opentrack](http://www.opentrack.ch/opentrack/opentrack_e/opentrack_e.html) library.
 
-The particular genus of the scheduling problem that Maytró presents, Single track scheduling, is solved with algorithms that feature common inputs like blocks (spaces between stations upon which only one train can be scheduled) and certain assumptions, such as that trains can cross at stations (not the case, in our specific example unfortunately).
+The particular genus of the scheduling problem that Maytró presents, Single track scheduling, is solved with algorithms that feature common inputs like blocks (spaces between stations upon which only one train can be scheduled) and certain assumptions, such as that trains can cross at stations (not the case in our specific example unfortunately).
 
 Below is an example space time diagram that is typically used to help visualize the problem [1](#fn1).
 
