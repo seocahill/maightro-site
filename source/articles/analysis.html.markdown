@@ -48,20 +48,23 @@ Scenario specific constraints also apply (there are four different scenarios, th
 The most obvious brute force approach is simply to cycle through every scheduling option, something like (pseudocode)
 
 ```ruby
-      schedule = []
-      blocks = single_track_sections
-      queue = ordered_trains_waiting_to_enter_first_block
-      while queue do
-         train = trains.pop
-         block = next_block(current_station, blocks)
-         if block.empty?
-            block.train = train
-            schedule << train
-         else
-            trains << train
-         end
+   schedule = []
+   blocks = single_track_sections
+   current_station = stations.first
+   trains = ordered_trains_waiting_to_enter_first_block
+
+   while trains.any? do
+      train = trains.shift
+      block = next_block(current_station, blocks)
+      if block && block.empty?
+         block.train = train
+         schedule << train
+         current_station = stations[stations.index(current_station) + 1]
+      else
+         trains.unshift(train)
       end
-      return schedule
+   end
+   return schedule
 ```
 
 The former example is superficially similar to the algorithmic approach I take but instead of trying to schedule all trains per open block I optimize for connections, applying practical shortcuts (heuristics) to avoid unnecessary cycles. This is a typical way to tackle a problem like this and produces what are referred to as 'greedy' algorithms:
