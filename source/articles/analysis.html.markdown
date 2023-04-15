@@ -121,7 +121,7 @@ This scenario has one major limitation. Ideally when rescheduling, a check would
 *   It turns out the algorithm only needs to reschedule a single Covey train to achieve acceptable results
 *   This option is not my preferred solution, it’s inferior to Option 2.
 
-Incidentally I did supply an approximation of the results of this exercise as a submission to the new timetable consultation without success or acknowledgement.
+Incidentally I did supply an approximation of the results of this exercise as a submission to [the new timetable consultation](https://www.irishrail.ie/en-ie/news/proposed-timetable-changes-from-11th-december-2022) without success or acknowledgement.
 
 #### [Option 2](https://github.com/seocahill/maightro/blob/69b2467fd23d64f49d7c7ec0ba0feb2e0ebbda0c/models/scenarios/option_2.rb)
 
