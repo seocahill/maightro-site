@@ -111,7 +111,7 @@ The baseline is just the current service and I look that up directly from Iarnr�
 
 The realtime data is the source of all the constants - block durations, turnaround times, station dwell - used to generate schedules in the following scenarios.
 
-#### [Options 1a](https://github.com/seocahill/maightro/blob/69b2467fd23d64f49d7c7ec0ba0feb2e0ebbda0c/models/scenarios/option_1.rb)
+#### [Options 1a](https://github.com/seocahill/maightro/blob/69b2467fd23d64f49d7c7ec0ba0feb2e0ebbda0c/models/scenarios/option_1a.rb)
 
 One of the problems with the current Maytró is that about half of the trains between Westport and Ballina are unusable due to lousy connections between them. The “improved” scenario (option 1a) first schedules connecting Ballina Manulla trains (Nephin) relative to the time they connect to Dublin - Westport Intercity trains (Covey hereafter). Then next part of the algorithm checks for block conflicts between the current and next schedule trains and attempts to reschedule the next train.
 
