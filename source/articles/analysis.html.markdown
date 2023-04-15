@@ -49,7 +49,7 @@ The most obvious brute force approach is simply to cycle through every schedulin
 
 ```ruby
       schedule = []
-      blocks = list_single_track_sections
+      blocks = single_track_sections
       queue = ordered_trains_waiting_to_enter_first_block
       while queue do
          train = trains.pop
