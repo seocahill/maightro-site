@@ -73,7 +73,7 @@ My goal is to demonstrate that using available resources, given a certain scenar
 
 ### Scenarios
 
-The baseline is just the current service and I look that up directly from Iarnród Éireann’s public (but not published) api, that serves their website. This means of course my implementation could and probably will break in the future but given the time I was willing to give this, the easiest thing was to query directly. I coded this initially as a basic cli, you can look up any route.
+The baseline is just the current service and I look that up directly from Iarnród Éireann’s public (but not published) api, that serves their website. This means of course my implementation could and probably will break in the future but given the time I was willing to give this, the easiest thing was to query directly. I coded this initially [as a basic cli](https://github.com/seocahill/maightro/blob/69b2467fd23d64f49d7c7ec0ba0feb2e0ebbda0c/models/journey_planner.rb), you can look up any route.
 
 ```ascii
    $rescue models/scenarios/option_3.rb 20221222 Claremorris Castlebar
@@ -154,13 +154,17 @@ A proper approach would have been to introduce an extra block (Ballyhaunis - Cla
 
 #### Option 4
 
-The missing algorithm! This would be the optimal solution aka "Switzerland". Sadly I don't, as of writing, have the free time to investigate this option. It would involve:
+The missing algorithm. This would be the optimal solution aka "Switzerland". Sadly I haven't, as of writing, had enough time to investigate this option and it's worth remarking that it would involve quite a bit of change compared to the others, namely:
 
 - Adding back route flexibility that has been removed over the years, i.e. small passing loops at Foxford, Manulla, Castlebar.
 - Bringing average speeds into line with European standards for regional rail.
 - Scheduling trains to optimal frequency, given the geography of the line.
 
-As a very rough rule of thumb, accepting that the aforementioned improvements were made, one could assume the longest block (Foxford to Castlebar) to take about 10 minutes to traverse and all blocks to be roughly equal in length. In such a scenario a headway of ~20 minutes would be theoretically possible, even on a single track.
+Although the above alterations may not sound like particulary outragous demands in the context of running an efficient railway service, they are nevertheless unlikely to find political favour given orthodox Irish economic thinking.
+
+Be that as it may, just to get a rough idea of what is possible accepting that the aforementioned improvements were made, one could assume the longest block (Foxford to Castlebar) to take about 10 minutes to traverse and all blocks to be roughly equal in length. In such a scenario a headway of ~20 minutes would be theoretically possible, even on a single track.
+
+In other words, in an alternative universe Swiss Mayo, people travelling in either direction between the major towns could expect a train every 20 minutes or so - not too bad!
 
 ### Comparison of Algorithms
 
