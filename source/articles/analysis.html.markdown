@@ -108,7 +108,7 @@ The baseline is just the current service and I look that up directly from Iarnr�
 
 The realtime data is the source of all the constants - block durations, turnaround times, station dwell - used to generate schedules in the following scenarios.
 
-#### Options 1a
+#### [Options 1a](https://github.com/seocahill/maightro/blob/69b2467fd23d64f49d7c7ec0ba0feb2e0ebbda0c/models/scenarios/option_1.rb)
 
 One of the problems with the current Maytró is that about half of the trains between Westport and Ballina are unusable due to lousy connections between them. The “improved” scenario (option 1a) first schedules connecting Ballina Manulla trains (Nephin) relative to the time they connect to Dublin - Westport Intercity trains (Covey hereafter). Then next part of the algorithm checks for block conflicts between the current and next schedule trains and attempts to reschedule the next train.
 
@@ -120,7 +120,7 @@ This scenario has one major limitation. Ideally when rescheduling, a check would
 
 Incidentally I did supply an approximation of the results of this exercise as a submission to the new timetable consultation without success or acknowledgement.
 
-#### Option 2
+#### [Option 2](https://github.com/seocahill/maightro/blob/69b2467fd23d64f49d7c7ec0ba0feb2e0ebbda0c/models/scenarios/option_2.rb)
 
 This is essentially the original “Mayolink” proposal reheated. The approach is to start with the earliest Covey connection and schedule as many Nephin trains as possible until midnight, making sure to keep current connections to and from Dublin. The main difference is that the Nephin railcar runs through to Westport, as opposed to requiring a change. It’s well documented that changing mode extracts a significant penalty in terms of public transport usage, so avoiding it if possible is key to providing a good service.
 
@@ -132,7 +132,7 @@ The scheduling optimizations applied are as follows:
 
 One limitation is that the station layout at Manulla, the junction of the lines, doesn’t have proper crossover facilities. In other words trains can pass each other but depending on the direction travelled an awkward maneuver is required. Could be easily fixed by the installation of a points. Not a deal-breaker either way but worth mentioning.
 
-#### Option 3
+#### [Option 3](https://github.com/seocahill/maightro/blob/69b2467fd23d64f49d7c7ec0ba0feb2e0ebbda0c/models/scenarios/option_3.rb)
 
 This introduces 15 minute Westport’s Eastern line, referred to here as the Costello.
 
@@ -144,7 +144,7 @@ The scheduling optimizations applied are as follows:
 *   if connection possible, make the connection
 *   otherwise just schedule an extra Costello service with no connection.
 
-#### Option 3b
+#### [Option 3b](https://github.com/seocahill/maightro/blob/69b2467fd23d64f49d7c7ec0ba0feb2e0ebbda0c/models/scenarios/option_3b.rb)
 
 For option3b the Costello is extended all the way to the border, Ballyhaunis town.
 
