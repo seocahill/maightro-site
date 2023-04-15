@@ -72,7 +72,7 @@ The former example is superficially similar to the algorithmic approach I take b
 > [A greedy algorithm is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.](https://en.wikipedia.org/wiki/Greedy_algorithm)
 > -- <cite>[from Wikipedia]</cite>
 
-My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that. I have accepted the general constraint that rescheduling existing trains (excepting in a very limited way for option 2) would render any putative solution infeasible. The heuristic I adopt then, is to accept the current schedule and fit in as many new trains as practicable around that (give the particular scenario) as oppossed to starting from scratch and scheduling every train anew. This trade off basically rules out an optimal solution.
+My goal is to demonstrate that using available resources, given a certain scenario, trains _could_ be scheduled a lot better. The goal is not to find the optimum scheduling possible or indeed to verify that. I have accepted the general constraint that rescheduling existing trains (excepting in a very limited way for option 2) would render any putative solution infeasible. The heuristic I adopt then, is to accept the current schedule and fit in as many new trains as practicable around that (given the particular scenario) as opposed to starting from scratch and scheduling every train anew. This trade off basically rules out an optimal solution.
 
 ### Scenarios
 
