@@ -163,7 +163,7 @@ The missing algorithm. This would be the optimal solution aka "Switzerland". Sad
 - Bringing average speeds into line with European standards for regional rail.
 - Scheduling trains to optimal frequency, given the geography of the line.
 
-Although the above alterations may not sound like particulary outragous demands in the context of running an efficient railway service, they are nevertheless unlikely to find political favour given orthodox Irish economic thinking.
+Although the above alterations may not sound like particulary outrageous demands in the context of running an efficient railway service, they are nevertheless unlikely to find political favour given orthodox Irish economic thinking.
 
 Be that as it may, just to get a rough idea of what is possible accepting that the aforementioned improvements were made, one could assume the longest block (Foxford to Castlebar) to take about 10 minutes to traverse and all blocks to be roughly equal in length. In such a scenario a headway of ~20 minutes would be theoretically possible, even on a single track.
 
