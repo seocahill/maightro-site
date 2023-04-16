@@ -32,7 +32,7 @@ Leaving with our tail between our legs we passed the building site of the new by
 
 Perhaps this was the final motivation required to build the Maytró site, that is to raise awareness of alternative approaches to solving Mayo's transport problems, solutions that leverage existing, under-utilised infrastructure.
 
-### How it works
+<h3 id="how-it-works">How it works</h3>
 
 For a deeper dive into the code you can [check this page out](/articles/analysis.html) but here’s a quick non-technical overview. All train data is pulled from the same source as the irishrail website/app. On top of that I offer 5 different “flavours” of maytró to choose from. The approach is to start with existing services and progressively enhance them, using available resources.
 
