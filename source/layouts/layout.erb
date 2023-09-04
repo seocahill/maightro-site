@@ -24,59 +24,61 @@
         </nav>
       </div>
     </header>
-    <section class="bg-white py-20">
-      <div class="container mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-8">Search local rail services in Mayo</h1>
-        <!-- Update the form to include inputs for "from", "to", and "date" -->
-        <form action="#" class="max-w-lg mx-auto lg:flex lg:items-center lg:justify-center lg:space-x-4" method="GET" hx-post="//<%= ENV.fetch('API_DOMAIN', 'localhost:9292') %>/timetable" hx-target="#results-table">
-          <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
-            <label for="from" class="hidden lg:block text-gray-600 mr-4">From:</label>
-            <select id="from" name="from" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200 bg-white ml-0 lg:ml-2">
-              <option value="Ballina" selected>Ballina</option>
-              <option value="Foxford">Foxford</option>
-              <option value="Castlebar">Castlebar</option>
-              <option value="Westport">Westport</option>
-              <option value="Claremorris">Claremorris</option>
-              <option value="Ballyhaunis">Ballyhaunis</option>
-            </select>
-          </div>
-          <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
-            <label for="to" class="hidden lg:block text-gray-600 mr-4">To:</label>
-            <select id="to" name="to" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200 bg-white ml-0 lg:ml-2">
-              <option value="Ballina">Ballina</option>
-              <option value="Foxford">Foxford</option>
-              <option value="Castlebar">Castlebar</option>
-              <option value="Westport" selected>Westport</option>
-              <option value="Claremorris">Claremorris</option>
-              <option value="Ballyhaunis">Ballyhaunis</option>
-            </select>
-          </div>
-          <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
-            <label for="date" class="hidden lg:block text-gray-600 mr-4">Date:</label>
-            <input type="date" id="date" name="date" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200 bg-white ml-0 lg:ml-2">
-          </div>
-          <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
-            <label for="timetable" class="hidden lg:block text-gray-600 mr-4">Timetable:</label>
-            <select id="timetable" name="scenario" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200 bg-white ml-0 lg:ml-2">
-              <option value="Option1" selected>Current</option>
-              <option value="Option1a">Current with better connections</option>
-              <option value="Option2">Ballina-Westport direct</option>
-              <option value="Option3">Extra Claremorris services</option>
-              <option value="Option3b">Extra Ballyhaunis services</option>
-            </select>
-          </div>
-          <button class="py-3 px-6 bg-green-500 text-white font-semibold rounded-lg border border-green-500 hover:bg-green-600 transition-all duration-300 mt-4 lg:mt-0 transition duration-200 ease-in-out submit-button htmx">
-            <span class="default-text">Search</span>
-            <span class="loading-text hidden">Loading...</span>
-          </button>
-          <!-- Add a button to reverse the direction of travel -->
-          <button class="py-3 px-6 bg-gray-200 text-gray-800 font-semibold rounded-lg border border-gray-200 hover:bg-gray-300 transition-all duration-300 ml-4" id="reverseDirection"  onclick="swapValues()">Reverse</button>
-        </form>
-      </div>
-    </section>
-    <section class="bg-white py-20">
-      <div class="container mx-auto px-4" id="results-table">
-        <%= yield %>
-      </div>
-    </section>
+    <main class="bg-cover bg-no-repeat bg-center min-h-screen" style="background-image: url('images/maytro.jpg')">
+      <section class="py-20">
+        <div class="container mx-auto px-4">
+          <h1 class="text-4xl font-bold mb-8">Search local rail services in Mayo</h1>
+          <!-- Update the form to include inputs for "from", "to", and "date" -->
+          <form action="#" class="max-w-lg mx-auto lg:flex lg:items-center lg:justify-center lg:space-x-4" method="GET" hx-post="//<%= ENV.fetch('API_DOMAIN', 'localhost:9292') %>/timetable" hx-target="#results-table">
+            <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
+              <label for="from" class="hidden lg:block text-gray-600 mr-4">From:</label>
+              <select id="from" name="from" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200  ml-0 lg:ml-2">
+                <option value="Ballina" selected>Ballina</option>
+                <option value="Foxford">Foxford</option>
+                <option value="Castlebar">Castlebar</option>
+                <option value="Westport">Westport</option>
+                <option value="Claremorris">Claremorris</option>
+                <option value="Ballyhaunis">Ballyhaunis</option>
+              </select>
+            </div>
+            <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
+              <label for="to" class="hidden lg:block text-gray-600 mr-4">To:</label>
+              <select id="to" name="to" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200  ml-0 lg:ml-2">
+                <option value="Ballina">Ballina</option>
+                <option value="Foxford">Foxford</option>
+                <option value="Castlebar">Castlebar</option>
+                <option value="Westport" selected>Westport</option>
+                <option value="Claremorris">Claremorris</option>
+                <option value="Ballyhaunis">Ballyhaunis</option>
+              </select>
+            </div>
+            <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
+              <label for="date" class="hidden lg:block text-gray-600 mr-4">Date:</label>
+              <input type="date" id="date" name="date" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200  ml-0 lg:ml-2">
+            </div>
+            <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
+              <label for="timetable" class="hidden lg:block text-gray-600 mr-4">Timetable:</label>
+              <select id="timetable" name="scenario" class="py-3 px-4 rounded-lg border-t border-b border-l text-gray-800 border-gray-200  ml-0 lg:ml-2">
+                <option value="Option1" selected>Current</option>
+                <option value="Option1a">Current with better connections</option>
+                <option value="Option2">Ballina-Westport direct</option>
+                <option value="Option3">Extra Claremorris services</option>
+                <option value="Option3b">Extra Ballyhaunis services</option>
+              </select>
+            </div>
+            <button class="py-3 px-6 bg-green-500 text-white font-semibold rounded-lg border border-green-500 hover:bg-green-600 transition-all duration-300 mt-4 lg:mt-0 transition duration-200 ease-in-out submit-button htmx">
+              <span class="default-text">Search</span>
+              <span class="loading-text hidden">Loading...</span>
+            </button>
+            <!-- Add a button to reverse the direction of travel -->
+            <button class="py-3 px-6 bg-gray-200 text-gray-800 font-semibold rounded-lg border border-gray-200 hover:bg-gray-300 transition-all duration-300 ml-4" id="reverseDirection"  onclick="swapValues()">Reverse</button>
+          </form>
+        </div>
+      </section>
+      <section class="py-20">
+        <div class="container mx-auto px-4" id="results-table">
+          <%= yield %>
+        </div>
+      </section>
+    </main>
   </body>
