@@ -9,6 +9,8 @@ tags: articles
 About Maytró
 --------------
 
+<img src="../images/map.svg">
+
 “Maytró” (this website) is conceived to be both practical and aspirational. At heart it’s simply an online rail journey planner exclusively branded for Mayo. Its other purpose is to demonstrate concretely, how easy it would be to provide significantly more useful local rail services than those currently offered.
 
 The name (apologies if obvious) is a combination of Mayo and metro and Maigh Eo agus méitreo i nGaeilge - "Maightreo" mar a thugaim air. The original project, the inspiration for this proposal, was called "Mayolink".

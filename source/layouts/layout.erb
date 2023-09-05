@@ -25,9 +25,9 @@
       </div>
     </header>
     <main class="bg-cover bg-no-repeat bg-center min-h-screen" style="background-image: url('images/maytro.jpg')">
-      <section class="py-20">
+      <section class="md:py-20 py-8">
         <div class="container mx-auto px-4">
-          <h1 class="text-4xl font-bold mb-8">Search local rail services in Mayo</h1>
+          <h1 class="md:text-4xl text-2xl font-bold mb-8">Search local rail services in Mayo</h1>
           <!-- Update the form to include inputs for "from", "to", and "date" -->
           <form action="#" class="max-w-lg mx-auto lg:flex lg:items-center lg:justify-center lg:space-x-4" method="GET" hx-post="//<%= ENV.fetch('API_DOMAIN', 'localhost:9292') %>/timetable" hx-target="#results-table">
             <div class="flex flex-col mb-4 lg:flex-row lg:mb-0 lg:items-center">
