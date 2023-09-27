@@ -42,10 +42,10 @@ Running the new timetable through the improved algorithm yields this:
 | Westport | Ballina | 16:20 | 17:04 | €7.65 | 44 mins | to Dublin Heuston | R-10 |
 | Westport | Ballina | 18:20 | 19:06 | €7.65 | 46 mins | to Dublin Heuston | R-9  |
 
-Looks pretty good! The actual draft timetable is [here](https://www.irishrail.ie/getmedia/d57bb37e-9dda-4227-9185-6cd38717d149/0610-DubGalwyWportDub_v1.pdf) for comparison.
+Looks pretty good! The actual draft timetable is below for comparison.
 
 <object data="https://www.irishrail.ie/getmedia/d57bb37e-9dda-4227-9185-6cd38717d149/0610-DubGalwyWportDub_v1.pdf" type="application/pdf" width="100%" height="400px">
-  <p>Unable to display PDF file.</p>
+  <p><a target="_blank" href="https://www.irishrail.ie/getmedia/d57bb37e-9dda-4227-9185-6cd38717d149/0610-DubGalwyWportDub_v1.pdf">Unable to render pdf, click to view draft timetable</a></p>
 </object>
 
 Notes:
@@ -61,7 +61,7 @@ The key to unlocking these improvements is a single problematic weekday train, *
 In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer here would be to simply start the train in Heuston, departing 08:05 (i.e. 30 minutes after the Galway train) which was the old departure time to Westport on weekdays.
 
 <object data="https://web.archive.org/web/20040925145023/http://www.irishrail.ie/your_journey/printed_timetable_pdfs/2004/dublinwestportballina.pdf" width="100%" height="400px">
-  <p>Unable to display PDF file.</p>
+  <p><a target="_blank" href="https://web.archive.org/web/20040925145023/http://www.irishrail.ie/your_journey/printed_timetable_pdfs/2004/dublinwestportballina.pdf">Unable to render pdf, click to view old timetable</a></p>
 </object>
 
 
