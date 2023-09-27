@@ -18,7 +18,7 @@ Relevant to this proposal are:
 - A number of other minor schedule alterations to improve punctuality (e.g. the 18:20 ex-Westport now 18:15)
 - No connection is provided to the 16:20hrs ex Westport service even though the necessary paths exist to do so.
 
-## Improved algorithm output
+## Improved timetable
 
 The code can be found [here](https://github.com/seocahill/maightro/blob/main/models/scenarios/option_1b.rb)
 
