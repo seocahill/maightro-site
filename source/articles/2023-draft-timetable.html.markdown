@@ -58,7 +58,7 @@ Notes:
 
 The key to unlocking these improvements is a single problematic weekday train, **the 9:10 ex Athlone to Westport**.
 
-In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer here would be to simply start the train in Heuston, departing 08:05 which was the old departure time to Westport on weekdays.
+In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer here would be to simply start the train in Heuston, departing 08:05 (i.e. 30 minutes after the Galway train) which was the old departure time to Westport on weekdays.
 
 <object data="https://web.archive.org/web/20040925145023/http://www.irishrail.ie/your_journey/printed_timetable_pdfs/2004/dublinwestportballina.pdf" width="100%" height="400px">
   <p>Unable to display PDF file.</p>
