@@ -44,7 +44,7 @@ Running the new timetable through the improved algorithm yields this:
 
 Looks pretty good! The actual draft timetable is [here](https://www.irishrail.ie/getmedia/d57bb37e-9dda-4227-9185-6cd38717d149/0610-DubGalwyWportDub_v1.pdf) for comparison.
 
-<object data="https://www.irishrail.ie/getmedia/d57bb37e-9dda-4227-9185-6cd38717d149/0610-DubGalwyWportDub_v1.pdf" type="application/pdf" width="100%" height="500px">
+<object data="https://www.irishrail.ie/getmedia/d57bb37e-9dda-4227-9185-6cd38717d149/0610-DubGalwyWportDub_v1.pdf" type="application/pdf" width="100%" height="400px">
   <p>Unable to display PDF file.</p>
 </object>
 
@@ -58,7 +58,12 @@ Notes:
 
 The key to unlocking these improvements is a single problematic weekday train, **the 9:10 ex Athlone to Westport**.
 
-In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer here would be to simply start the train in Heuston, departing 08:05 which, if memory serves, was the old departure time to Westport on weekdays.
+In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer here would be to simply start the train in Heuston, departing 08:05 which was the old departure time to Westport on weekdays.
+
+<object data="https://web.archive.org/web/20040925145023/http://www.irishrail.ie/your_journey/printed_timetable_pdfs/2004/dublinwestportballina.pdf" width="100%" height="400px">
+  <p>Unable to display PDF file.</p>
+</object>
+
 
 With this tweak in place, the Ballina shuttle can provide a full integration to all trains, with fast connections to and from both Westport and Dublin as shown.
 
@@ -67,6 +72,7 @@ I haven't performed any programmatic testing to confirm this change is feasible 
 - As the existing crossover with the morning train happens in Athlone, the new crossing point would be in Tullamore and shouldn't pose any issues.
 - The train would depart a half hour after the current connection to Galway which is assumed feasible as later Athlone services run with 30 minutes headways between them.
 - No other IC service appears to be currently scheduled at this time on the main trunk route to Portarlington.
+- Traditionally a direct train to Westport left in this window (not sure when it was discontinued, or why)
 
 I think therefore, based on the above, that it's reasonable to assume that there should be no insurmountable barrier to rescheduling this train if required.
 
