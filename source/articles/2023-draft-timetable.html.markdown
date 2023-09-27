@@ -16,13 +16,7 @@ Relevant to this proposal are:
 - Additional 16:20hrs Westport to Athlone and 21:08hrs Athlone to Westport service daily (Monday to Saturday), providing connections to/from Dublin Heuston at Athlone.
 - Connection from/to Ballina to the new 21:08hrs Athlone to Westport above.
 - A number of other minor schedule alterations to improve punctuality (e.g. the 18:20 ex-Westport now 18:15)
-
-Notes:
-
 - No connection is provided to the 16:20hrs ex Westport service even though the necessary paths exist to do so.
-- I assume no freight conflict which in any case are always soluble as not time sensitive.
-- Likewise staffing isn't considered an issue as the overall hours of operation don't change.
-- Sunday not considered as no changes are proposed.
 
 ## Improved algorithm output
 
@@ -53,6 +47,12 @@ Looks pretty good! The actual draft timetable is [here](https://www.irishrail.ie
 <object data="https://www.irishrail.ie/getmedia/d57bb37e-9dda-4227-9185-6cd38717d149/0610-DubGalwyWportDub_v1.pdf" type="application/pdf" width="100%" height="500px">
   <p>Unable to display PDF file.</p>
 </object>
+
+Notes:
+
+- I assume no freight conflict which in any case are always soluble as not time sensitive.
+- Likewise staffing isn't considered an issue as the overall hours of operation don't change.
+- Sunday not considered as no changes are proposed.
 
 ## The key change
 

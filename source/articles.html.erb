@@ -1,0 +1,20 @@
+---
+blog: articles
+layout: "article_layout"
+---
+<%# <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8"> %>
+  <div class="prose lg:prose-xl">
+    <h1>News and Articles</h1>
+    <% blog.articles[0...5].each do |article| %>
+      <article>
+        <h3>
+          <a href="<%= article.url %>"><%= article.title %></a>
+          <small><time><%= article.date.strftime('%b %e %Y') %></time></small>
+        </h3>
+        <p><%= article.summary %></p>
+        <a href="<%= article.url %>">Read more</a>
+      </article>
+      <hr>
+    <% end %>
+  </div>
+<%# </div> %>
