@@ -62,13 +62,13 @@ In order to smooth out current timetable issues the algorithm delays the departu
 
 With this tweak in place, the Ballina shuttle can provide a full integration to all trains, with fast connections to and from both Westport and Dublin as shown.
 
-**Notes on feasibility of above:**
-
-No programmatic testing was performed but the following sanity checks seem to pass at least:
+I haven't performed any programmatic testing to confirm this change is feasible (due to time constraints and incomplete data) but the following is true at least:
 
 - As the existing crossover with the morning train happens in Athlone, the new crossing point would be in Tullamore and shouldn't pose any issues.
 - The train would depart a half hour after the current connection to Galway which is assumed feasible as later Athlone services run with 30 minutes headways between them.
 - No other IC service appears to be currently scheduled at this time on the main trunk route to Portarlington.
+
+I think therefore, based on the above, that it's reasonable to assume that there should be no insurmountable barrier to rescheduling this train if required.
 
 ## Late weekend only service
 
