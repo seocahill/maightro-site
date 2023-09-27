@@ -62,9 +62,9 @@ In order to smooth out current timetable issues the algorithm delays the departu
 
 With this tweak in place, the Ballina shuttle can provide a full integration to all trains, with fast connections to and from both Westport and Dublin as shown.
 
-**Notes on feasibility:**
+**Notes on feasibility of above:**
 
-Obviously nothing exhaustive done here but the following rough checks are noted:
+No programmatic testing was performed but the following sanity checks seem to pass at least:
 
 - As the existing crossover with the morning train happens in Athlone, the new crossing point would be in Tullamore and shouldn't pose any issues.
 - The train would depart a half hour after the current connection to Galway which is assumed feasible as later Athlone services run with 30 minutes headways between them.
@@ -72,7 +72,7 @@ Obviously nothing exhaustive done here but the following rough checks are noted:
 
 ## Late weekend only service
 
-I've also asked for a single late night service at the weekend to be provided to facilitate movement around the Mayo towns and to improve Mayo's social offering. The policy reference here is the Night Time Economy Commission's Report which was adopted in the last program for Government, especially the section dealing with the lack of public transport in urban and rural areas.
+Unrelated to the above, I've also asked for a single late night service at the weekend to be provided to facilitate movement around the Mayo towns and to improve Mayo's social offering. The policy reference here is the Night Time Economy Commission's Report which was adopted in the last program for Government, especially the section dealing with the lack of public transport in urban and rural areas.
 
 A template for this service would be the special trains laid on at short notice for the Biden visit. Essentially a train each leaving Ballina and Westport at night, meeting in Manulla and returning back the way they came. This would allow travel home from the big towns in all directions and be a major help in terms of facilitating late night socializing. Since trains are stabled in both stations at night, we can say the stock is there. Of course crewing them would require extra staff hours.
 
