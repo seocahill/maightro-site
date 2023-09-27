@@ -50,7 +50,7 @@ Looks pretty good! The actual draft timetable is [here](https://www.irishrail.ie
 
 Notes:
 
-- I assume no freight conflict which in any case are always soluble as not time sensitive.
+- I assume no freight conflicts which in any case are always soluble as not time sensitive.
 - Likewise staffing isn't considered an issue as the overall hours of operation don't change.
 - Sunday not considered as no changes are proposed.
 
