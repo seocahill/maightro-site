@@ -74,7 +74,7 @@ Obviously nothing exhaustive done here but the following rough checks are noted:
 
 I've also asked for a late night service at the weekend to be provided to facilitate movement around the Mayo town to improve Mayo's social offering. The policy reference here is the Night Time Economy Commission's Report which was adopted in the last program for Government, especially the section dealing with the lack of public tranport in urban and rural areas.
 
-The template for this service would be the special trains laid on for the Biden visit. Essentially a train each leaving Ballina and Westport at night, meeting in Manulla and returning back to its origin. This would allow travel home form all the big towns in all directions and be a major help in terms of facilitating late night socializing.
+The template for this service would be the special trains laid on for the Biden visit. Essentially a train each leaving Ballina and Westport at night, meeting in Manulla and returning back to its origin. This would allow travel home from the big towns in all directions and be a major help in terms of facilitating late night socializing.
 
 ## A note on the process
 
