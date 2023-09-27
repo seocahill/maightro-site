@@ -16,13 +16,13 @@ Relevant to this proposal are:
 - Additional 16:20hrs Westport to Athlone and 21:08hrs Athlone to Westport service daily (Monday to Saturday), providing connections to/from Dublin Heuston at Athlone.
 - Connection from/to Ballina to the new 21:08hrs Athlone to Westport above.
 - A number of other minor schedule alterations to improve punctuality (e.g. the 18:20 ex-Westport now 18:15)
-- Sunday not considered
 
 Notes:
 
 - No connection is provided to the 16:20hrs ex Westport service even though the necessary paths exist to do so.
 - I assume no freight conflict which in any case are always soluble as not time sensitive.
 - Likewise staffing isn't considered an issue as the overall hours of operation don't change.
+- Sunday not considered as no changes are proposed.
 
 ## Improved algorithm output
 
@@ -58,7 +58,7 @@ Looks pretty good! The actual draft timetable is [here](https://www.irishrail.ie
 
 The key to unlocking these improvements is a single problematic weekday train, **the 9:10 ex Athlone to Westport**.
 
-In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer here would be to simply start the train in Heuston, departing 08:05 which, if memory serves, was the old departure time to Westport on weekedays.
+In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer here would be to simply start the train in Heuston, departing 08:05 which, if memory serves, was the old departure time to Westport on weekdays.
 
 With this tweak in place, the Ballina shuttle can provide a full integration to all trains, with fast connections to and from both Westport and Dublin as shown.
 
@@ -66,15 +66,15 @@ With this tweak in place, the Ballina shuttle can provide a full integration to 
 
 Obviously nothing exhaustive done here but the following rough checks are noted:
 
-- As the exising crossover with the morning train happens in Athlone, the new crossing point would be in Tullamore and shouldn't pose any issues.
+- As the existing crossover with the morning train happens in Athlone, the new crossing point would be in Tullamore and shouldn't pose any issues.
 - The train would depart a half hour after the current connection to Galway which is assumed feasible as later Athlone services run with 30 minutes headways between them.
 - No other IC service appears to be currently scheduled at this time on the main trunk route to Portarlington.
 
 ## Late weekend only service
 
-I've also asked for a late night service at the weekend to be provided to facilitate movement around the Mayo town to improve Mayo's social offering. The policy reference here is the Night Time Economy Commission's Report which was adopted in the last program for Government, especially the section dealing with the lack of public tranport in urban and rural areas.
+I've also asked for a single late night service at the weekend to be provided to facilitate movement around the Mayo towns and to improve Mayo's social offering. The policy reference here is the Night Time Economy Commission's Report which was adopted in the last program for Government, especially the section dealing with the lack of public transport in urban and rural areas.
 
-The template for this service would be the special trains laid on for the Biden visit. Essentially a train each leaving Ballina and Westport at night, meeting in Manulla and returning back to its origin. This would allow travel home from the big towns in all directions and be a major help in terms of facilitating late night socializing.
+A template for this service would be the special trains laid on at short notice for the Biden visit. Essentially a train each leaving Ballina and Westport at night, meeting in Manulla and returning back the way they came. This would allow travel home from the big towns in all directions and be a major help in terms of facilitating late night socializing. Since trains are stabled in both stations at night, we can say the stock is there. Of course crewing them would require extra staff hours.
 
 ## A note on the process
 
@@ -85,6 +85,4 @@ Iarnród Éireann and the National Transport Authority will review all suggestio
 Suggested alterations which cannot be implemented at this timetable change will be retained in a database for consideration at future timetable reviews.
 Iarnród Éireann
 
-Feedback as to why suggestions are rejected is essential, if for no other reason to allow interested parties to attempt to iterate and find solutions. Give the likely quite low volume of submissions, it should be possible.
-
-In most cases, one would expect that there are solid reasons as to why services are scheduled as they are but given a complex problem like scheduling, extra input and testing should always be welcome.
+Feedback as to why suggestions are rejected is essential, if for no other reason to allow interested parties to attempt to iterate and find solutions. Given the likely quite low volume of submissions, it should be possible. In most cases, one would expect that there are good reasons as to why suggestions are rejected but given a complex problem like scheduling, extra input and testing should always be welcome.
