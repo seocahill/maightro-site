@@ -7,10 +7,7 @@ layout: "article_layout"
     <h1>News and Articles</h1>
     <% blog.articles[0...5].each do |article| %>
       <article>
-        <h3>
-          <a href="<%= article.url %>"><%= article.title %></a>
-          <small><time><%= article.date.strftime('%b %e %Y') %></time></small>
-        </h3>
+        <h5><time><%= article.date.strftime('%b %e %Y') %></time></h5>
         <p><%= article.summary %></p>
         <a href="<%= article.url %>">Read more</a>
       </article>
