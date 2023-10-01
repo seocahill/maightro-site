@@ -88,7 +88,7 @@ A template for this service would be the special trains laid on at short notice 
 Railways are a public good, so the public should certainly have a say in how services are run. In this context it's great that IÉ are consulting the public but the process still feels a little bit like a black box. The current response is as follows:
 
 > Thank you for taking the time to submit your comments and suggestions to Iarnród Éireann regarding the proposed timetable changes from December 2023.
-> Iarnród Éireann and the National Transport Authority will review all suggestions received.
-> Suggested alterations which cannot be implemented at this timetable change will be retained in a database for consideration at future timetable reviews.
+Iarnród Éireann and the National Transport Authority will review all suggestions received.
+Suggested alterations which cannot be implemented at this timetable change will be retained in a database for consideration at future timetable reviews.
 
 Feedback as to why suggestions are rejected is essential, if for no other reason to allow interested parties to attempt to iterate and find solutions. Given the likely quite low volume of submissions, it should be possible. In most cases, one would expect that there are good reasons as to why suggestions are rejected but given a complex problem like scheduling, extra input and testing should always be welcome.
