@@ -75,7 +75,7 @@ I haven't performed any programmatic testing to confirm this change is feasible 
 - No other Intercity service appears to be currently scheduled at this time on the main trunk route to Portarlington.
 - Until around 2010 a direct train to Westport left in this exact window. Given the timeframe, its cancellation was likely due to the imposition of austerity and not for any logical reason.
 
-I think therefore, based on the above, that it's reasonable to assume that there is no insurmountable barrier to restoring this service, which would result in a huge improvement in public transport provision in Mayo.
+I think therefore, it's reasonable to assume that there is no insurmountable barrier to restoring this service. The 20% of local trains run in Mayo that are currently unusable due to poor connections could then be rescheduled and become viable for the public.
 
 ## Late weekend only service
 
