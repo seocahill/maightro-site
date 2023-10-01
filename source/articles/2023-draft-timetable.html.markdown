@@ -73,7 +73,7 @@ I haven't performed any programmatic testing to confirm this change is feasible 
 - As the existing crossover with the morning train happens in Athlone, the new crossing point would be in Tullamore and shouldn't pose any issues.
 - The train would depart a half hour after the current connection to Galway which is assumed feasible as later Athlone services run with 30 minutes headways between them.
 - No other Intercity service appears to be currently scheduled at this time on the main trunk route to Portarlington.
-- Until around 2010 a direct train to Westport left in this exact window. Given the timeframe its cancellation was likely due to the imposition of austerity and not for any logical reason.
+- Until around 2010 a direct train to Westport left in this exact window. Given the timeframe, its cancellation was likely due to the imposition of austerity and not for any logical reason.
 
 I think therefore, based on the above, that it's reasonable to assume that there is no insurmountable barrier to restoring this service, which would result in a huge improvement in public transport provision in Mayo.
 
