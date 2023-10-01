@@ -60,7 +60,7 @@ The key to unlocking these improvements is a single problematic weekday train, *
 
 In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer is to start the train in Heuston, departing 08:05 (i.e. 30 minutes after the Galway train)*
 
-**This was the old departure time to Westport on weekdays, as you can see below. Compared to 2008 overall trip time is almost 25 minutes faster but connections are much worse.*
+**Coincidentally this was the old departure time to Westport on weekdays, as you will see below. Compared to 2008 overall trip time is almost 25 minutes faster but connections are much worse.*
 
 <object data="https://web.archive.org/web/20100702043048/http://www.irishrail.ie:80/your_journey/printed_timetable_pdfs/2008/Dublin%20Westport%2008.pdf" width="100%" height="400px">
   <p><a target="_blank" href="https://web.archive.org/web/20100702043048/http://www.irishrail.ie:80/your_journey/printed_timetable_pdfs/2008/Dublin%20Westport%2008.pdf">Unable to render pdf, click to view old timetable</a></p>
@@ -75,7 +75,7 @@ I haven't performed any programmatic testing to confirm this change is feasible 
 - No other Intercity service appears to be currently scheduled at this time on the main trunk route to Portarlington.
 - Until around 2010 a direct train to Westport left in this exact window. Given the timeframe its cancellation was likely due to the imposition of austerity and not for any logical reason.
 
-I think therefore, based on the above, that it's reasonable to assume that there should be no insurmountable barrier to restoring this service.
+I think therefore, based on the above, that it's reasonable to assume that there should be no insurmountable barrier to restoring this service which, as demonstrated above, would result in a huge improvement in rail services in Mayo.
 
 ## Late weekend only service
 
@@ -91,4 +91,4 @@ Railways are a public good, so the public should certainly have a say in how ser
 Iarnród Éireann and the National Transport Authority will review all suggestions received.
 Suggested alterations which cannot be implemented at this timetable change will be retained in a database for consideration at future timetable reviews.
 
-Feedback as to why suggestions are rejected is essential, if for no other reason to allow interested parties to attempt to iterate and find solutions. Given the likely quite low volume of submissions, it should be possible. In most cases, one would expect that there are good reasons as to why suggestions are rejected but given a complex problem like scheduling, extra input and testing should always be welcome.
+Feedback as to why suggestions are rejected is essential, if for no other reason to allow interested parties to attempt to iterate and find solutions. Given the likely quite low volume of submissions, it should be possible. A public register of submissions and responses would also be welcome.
