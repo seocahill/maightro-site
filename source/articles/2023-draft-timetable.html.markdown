@@ -31,16 +31,16 @@ Running the new timetable through the improved algorithm yields this:
 | Ballina | Westport | 15:07 | 15:58 | €7.65 | 51 mins | to Westport           | C-2 |
 | Ballina | Westport | 17:07 | 17:58 | €7.65 | 51 mins | advanced by 2.0 mins  | C-3 |
 | Ballina | Westport | 20:35 | 21:26 | €7.65 | 51 mins | to Westport           | C-4 |
-| Ballina | Westport | 22:02 | 22:53 | €7.65 | 51 mins | to Westport           | C-5 |
+| Ballina | Westport | 22:02 | 22:53 | €7.65 | 51 mins | to Westport           | C-X |
 
-| From     | To      | Dep   | Arr   | Cost  | Dur     | Notes             | Id   |
-|----------|---------|-------|-------|-------|---------|-------------------|------|
-| Westport | Ballina | 05:15 | 06:02 | €7.65 | 47 mins | to Dublin Heuston | R-5  |
-| Westport | Ballina | 07:15 | 08:02 | €7.65 | 47 mins | to Dublin Heuston | R-6  |
-| Westport | Ballina | 09:45 | 10:32 | €7.65 | 47 mins | to Dublin Heuston | R-7  |
-| Westport | Ballina | 13:10 | 13:57 | €7.65 | 47 mins | to Dublin Heuston | R-8  |
-| Westport | Ballina | 16:20 | 17:04 | €7.65 | 44 mins | to Dublin Heuston | R-10 |
-| Westport | Ballina | 18:20 | 19:06 | €7.65 | 46 mins | to Dublin Heuston | R-9  |
+| From     | To      | Dep   | Arr   | Cost  | Dur     | Notes             | Id  |
+|----------|---------|-------|-------|-------|---------|-------------------|-----|
+| Westport | Ballina | 05:15 | 06:02 | €7.65 | 47 mins | to Dublin Heuston | R-5 |
+| Westport | Ballina | 07:15 | 08:02 | €7.65 | 47 mins | to Dublin Heuston | R-6 |
+| Westport | Ballina | 09:45 | 10:32 | €7.65 | 47 mins | to Dublin Heuston | R-7 |
+| Westport | Ballina | 13:10 | 13:57 | €7.65 | 47 mins | to Dublin Heuston | R-8 |
+| Westport | Ballina | 16:20 | 17:04 | €7.65 | 44 mins | to Dublin Heuston | R-X |
+| Westport | Ballina | 18:20 | 19:06 | €7.65 | 46 mins | to Dublin Heuston | R-9 |
 
 Looks pretty good! The actual draft timetable is below for comparison.
 
@@ -58,7 +58,7 @@ Notes:
 
 The key to unlocking these improvements is a single problematic weekday train, **the 9:10 ex Athlone to Westport**.
 
-In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer here would be to simply start the train in Heuston, departing 08:05 (i.e. 30 minutes after the Galway train)*
+In order to smooth out current timetable issues the algorithm delays the departure of the train by 30 minutes. Since this would cause the Dublin Galway connection to be missed the answer is to start the train in Heuston, departing 08:05 (i.e. 30 minutes after the Galway train)*
 
 **This was the old departure time to Westport on weekdays, as you can see below. Compared to 2008 overall trip time is almost 25 minutes faster but connections are much worse.*
 
@@ -66,16 +66,16 @@ In order to smooth out current timetable issues the algorithm delays the departu
   <p><a target="_blank" href="https://web.archive.org/web/20100702043048/http://www.irishrail.ie:80/your_journey/printed_timetable_pdfs/2008/Dublin%20Westport%2008.pdf">Unable to render pdf, click to view old timetable</a></p>
 </object>
 
-With this tweak in place, the Ballina shuttle can provide a full integration to all trains, with fast connections to and from both Westport and Dublin as shown.
+With this single tweak in place, the Ballina shuttle can provide a full integration to all trains, with fast connections to and from both Westport and Dublin as shown.
 
 I haven't performed any programmatic testing to confirm this change is feasible (due to time constraints and incomplete data) but the following is true at least:
 
 - As the existing crossover with the morning train happens in Athlone, the new crossing point would be in Tullamore and shouldn't pose any issues.
 - The train would depart a half hour after the current connection to Galway which is assumed feasible as later Athlone services run with 30 minutes headways between them.
-- No other IC service appears to be currently scheduled at this time on the main trunk route to Portarlington.
-- Until around 2010 a direct train to Westport left in this window (not sure of exact date it was discontinued, or why)
+- No other Intercity service appears to be currently scheduled at this time on the main trunk route to Portarlington.
+- Until around 2010 a direct train to Westport left in this exact window. Given the timeframe its cancellation was likely due to the imposition of austerity and not for any logical reason.
 
-I think therefore, based on the above, that it's reasonable to assume that there should be no insurmountable barrier to rescheduling this train if required.
+I think therefore, based on the above, that it's reasonable to assume that there should be no insurmountable barrier to restoring this service.
 
 ## Late weekend only service
 
@@ -88,8 +88,7 @@ A template for this service would be the special trains laid on at short notice 
 Railways are a public good, so the public should certainly have a say in how services are run. In this context it's great that IÉ are consulting the public but the process still feels a little bit like a black box. The current response is as follows:
 
 > Thank you for taking the time to submit your comments and suggestions to Iarnród Éireann regarding the proposed timetable changes from December 2023.
-Iarnród Éireann and the National Transport Authority will review all suggestions received.
-Suggested alterations which cannot be implemented at this timetable change will be retained in a database for consideration at future timetable reviews.
-Iarnród Éireann
+> Iarnród Éireann and the National Transport Authority will review all suggestions received.
+> Suggested alterations which cannot be implemented at this timetable change will be retained in a database for consideration at future timetable reviews.
 
 Feedback as to why suggestions are rejected is essential, if for no other reason to allow interested parties to attempt to iterate and find solutions. Given the likely quite low volume of submissions, it should be possible. In most cases, one would expect that there are good reasons as to why suggestions are rejected but given a complex problem like scheduling, extra input and testing should always be welcome.
