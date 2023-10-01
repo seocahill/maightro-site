@@ -81,7 +81,7 @@ I think therefore, based on the above, that it's reasonable to assume that there
 
 Unrelated to the above, I've also asked for a single late night service at the weekend to be provided to facilitate movement around the Mayo towns and to improve Mayo's social offering. The policy reference here is the Night Time Economy Commission's Report which was adopted in the last program for Government, especially the section dealing with the lack of public transport in urban and rural areas.
 
-A template for this service would be the special trains laid on at short notice for the Biden visit. Essentially a train each leaving Ballina and Westport at night, meeting in Manulla and returning back the way they came. This would allow travel home from the big towns in all directions and be a major help in terms of facilitating late night socializing. Since trains are stabled in both stations at night, we can say the stock is there. Of course crewing them would require extra staff hours.
+A template for this service would be the special trains laid on at short notice for the Biden visit. Essentially a train each leaving Ballina and Westport at night, meeting in Manulla and returning back the way they came. This would allow travel home from the big towns in all directions and would be a major help in terms of facilitating late night socializing in Mayo. Trains are already stabled in both stations at night, so the rolling stock is there. The night service potentially requires extra staff hours but the commitment would be very small, just a couple of extra hours per week.
 
 ## A note on the process
 
